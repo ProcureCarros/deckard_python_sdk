@@ -1,5 +1,7 @@
 .PHONY: docs
 
+## MAKE FILE form the python SDK 
+
 init:
 	pip install -r requirements.txt
 
