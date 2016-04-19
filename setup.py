@@ -38,6 +38,10 @@ with open('README.rst', 'r', 'utf-8') as f:
 with open('HISTORY.rst', 'r', 'utf-8') as f:
     history = f.read()
 
+with open('requirements.txt', 'r') as fr:
+    requires = fr.readLines()
+
+
 setup(
     name='procurecarros-client-python-sdk',
     version=version,

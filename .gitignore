@@ -82,3 +82,8 @@ t.py
 
 t2.py
 dist
+*.iml
+*.ipr
+*.iws
+
+.sdk/*

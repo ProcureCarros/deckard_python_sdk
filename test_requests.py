@@ -40,7 +40,6 @@ else:
     def u(s):
         return s.decode('unicode-escape')
 
-#
 # # Requests to this URL should always fail with a connection timeout (nothing
 # # listening on that port)
 # TARPIT = "http://10.255.255.1"

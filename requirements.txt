@@ -1,4 +1,6 @@
+cov-core==1.15.0
+coverage==4.0.3
 py==1.4.12
+PyJWT==1.4.0
 pytest==2.3.4
 pytest-cov==1.6
-wheel

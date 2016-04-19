@@ -9,7 +9,6 @@ __author__ = 'Equipe Procurecarros'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2015 Procurecarros.com'
 
-#
 # try:
 #     from .packages.urllib3.contrib import pyopenssl
 #     pyopenssl.inject_into_urllib3()
