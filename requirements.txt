@@ -4,3 +4,4 @@ py==1.4.12
 PyJWT==1.4.0
 pytest==2.3.4
 pytest-cov==1.6
+requests==2.9.1

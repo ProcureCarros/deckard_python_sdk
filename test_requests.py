@@ -28,6 +28,8 @@ from requests.sessions import SessionRedirectMixin
 from requests.models import urlencode
 from requests.hooks import default_hooks
 
+from procurecarros_sdk.integration import Integration
+
 try:
     import StringIO
 except ImportError:
@@ -39,6 +41,25 @@ if is_py3:
 else:
     def u(s):
         return s.decode('unicode-escape')
+
+
+class RequestsTestCase(unittest.TestCase):
+
+    _multiprocess_can_split_ = True
+
+    def setUp(self):
+        self.client_id  = '1234'
+        self.client_token = '5232c5e345e719d63ebc211fbd6319467b8aa3df'
+        pass
+
+    def tearDown(self):
+        pass
+
+    def test_integration_init(self):
+        client = Integration(self.client_id, self.client_token)
+        client.load_jobs()
+        pass
+
 
 # # Requests to this URL should always fail with a connection timeout (nothing
 # # listening on that port)

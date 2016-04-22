@@ -9,8 +9,11 @@ Install libs with this project
 
     $ pip install -r requirements.txt
 
-To install this lib
+To install this lib inside another project
 
     $ pip install git+https://github.com/procurecarros/python_sdk_.git@.
 
 
+To run tests just type:
+
+    $ ./test_requests.py

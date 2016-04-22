@@ -85,5 +85,6 @@ dist
 *.iml
 *.ipr
 *.iws
+*.ids
 
 .sdk/*
